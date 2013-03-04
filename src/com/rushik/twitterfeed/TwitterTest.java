@@ -21,7 +21,7 @@ public class TwitterTest
 {
 	public static void main(String[] args) throws TwitterException, IOException 
 	{
-		// Configuration
+		// Configuration...
 		
 		// please note below credentials for @rushik_life
 		ConfigurationBuilder confbuilder  = new ConfigurationBuilder();

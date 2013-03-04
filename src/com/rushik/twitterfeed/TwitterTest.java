@@ -21,13 +21,13 @@ public class TwitterTest
 {
 	public static void main(String[] args) throws TwitterException, IOException 
 	{
-		// Configuration...
+		// Configuration with your twitter LIVE app
 		
 		// please note below credentials for @rushik_life
 		ConfigurationBuilder confbuilder  = new ConfigurationBuilder();
-	    String token = "XYZ";// load from a persistent store
-	    String tokenSecret = "XYZ"; // load from a persistent store
-	    AccessToken accesstoken = new AccessToken(token, tokenSecret);
+	    	String token = "XYZ";// load from a persistent store
+	    	String tokenSecret = "XYZ"; // load from a persistent store
+	    	AccessToken accesstoken = new AccessToken(token, tokenSecret);
 		confbuilder.setOAuthAccessToken(accesstoken.getToken());
 		confbuilder.setOAuthAccessTokenSecret(accesstoken.getTokenSecret());
 		confbuilder.setOAuthConsumerKey("XYZ"); 

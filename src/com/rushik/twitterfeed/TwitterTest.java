@@ -98,14 +98,6 @@ public class TwitterTest
 	    // location based (The first pair must be the SW corner of the box - format EW, NS) 
 	    // San Francisco, New York
 	    //double locations[][] = {{-122.75, 36.8}, {-121.75, 37.8}};
-	    // gujarat
-	    //double locations[][] = { {68.00, 20.00}, {75.00, 25.00} };
-	    // mumbai
-	    //double locations[][] = { {72.00, 17.00}, {73.00, 20.00} };
-	    // delhi and UP
-	    //double locations[][] = { {75.00, 25.00}, {80.00, 30.00} };
-	    // india 
-	    //double locations[][] = { {65.00, 7.50}, {100.00, 38.00} };
 	    //FilterQuery fQuery = new FilterQuery ();
 	    //fQuery.locations(locations);
 	    
